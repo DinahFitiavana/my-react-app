@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+h1{
+  color: rgb(124, 19, 50);
+  font-family: cursive;
+  font-size: 50px;
+  margin: 50px auto;
+}
+
+input{
+  outline: none;
+  margin: 10px;
+  padding: 10px;
+  font-family: cursive;
+  border: 2px rgb(29, 47, 73) solid;
+}
+
+button{
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 2px black;
+  margin-left: 10px ;
+  margin-right: 10px;
+  font-family: cursive;
+}

@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 import './App.css';
 
 function App() {
+  //state
   const [taskText, setTaskText] = useState('');
   const [tasks, setTasks] = useState([]);
   const [selectedTaskId, setSelectedTaskId] = useState(null);
 
+  //comportement
   const onChange = (e) => setTaskText(e.target.value);
 
   const handleSubmit = (e) => {
@@ -43,6 +45,7 @@ function App() {
     setTaskText(taskText);
   };
 
+  //affichage
   return (
     <div>
       <h1>Todo List</h1>
